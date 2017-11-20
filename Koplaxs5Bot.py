@@ -76,8 +76,8 @@ Cmid = kc.getProfile().mid #Ussop
 Dmid = ks.getProfile().mid #Chooper
 
 Bots=[mid,Amid,Bmid,Cmid,Dmid]
-admin=["ued156c86ffa56024c0acba16f7889e6d"] 
-owner=["ued156c86ffa56024c0acba16f7889e6d"]
+admin=["u1a3ebb754b0bd05b50a3e3f8327ba765"] 
+owner=["u1a3ebb754b0bd05b50a3e3f8327ba765"]
 wait = {
     'contact':False,
     'autoJoin':True,
