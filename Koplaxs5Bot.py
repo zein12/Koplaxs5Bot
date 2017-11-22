@@ -3,7 +3,10 @@
 import LINETCR
 from LINETCR.lib.curve.ttypes import *
 from datetime import datetime
-import time,random,sys,json,codecs,threading,glob,re,os,subprocess
+import time,random,sys,json,codecs,threading,glob,requests,urllib
+import re,string,os,shutil,urllib2,urllib3,subprocess
+from urllib import urlopen
+import requests,tempfile
 
 cl = LINETCR.LINE() #Luffy
 cl.login(qr=True)
@@ -24,6 +27,8 @@ kc.loginResult()
 ks = LINETCR.LINE() #Chooper
 ks.login(qr=True)
 ks.loginResult()
+
+cl
 
 print "login success plak"
 reload(sys)
@@ -59,23 +64,14 @@ O҉n҉e҉ ҉P҉i҉e҉c҉e҉ ҉T҉e҉a҉m҉ ҉P҉r҉o҉t҉e҉c҉t҉
 -==================-
 """
 KAC=[cl,ki,kk,kc,ks]
-#DEF1=[ki,kk,kc,ks,ka,kb,ko,ke,ku] Udah Ga Kepake(Boleh di apus)
-#DEF2=[cl,kk,kc,ks,ka,kb,ko,ke,ku] Udah Ga Kepake(Boleh di apus)
-#DEF3=[cl,ki,kc,ks,ka,kb,ko,ke,ku] Udah Ga Kepake(Boleh di apus)
-#DEF4=[cl,ki,kk,ks,ka,kb,ko,ke,ku] Udah Ga Kepake(Boleh di apus)
-#DEF5=[cl,ki,kk,kc,ka,kb,ko,ke,ku] Udah Ga Kepake(Boleh di apus)
-#DEF6=[cl,ki,kk,kc,ks,kb,ko,ke,ku] Udah Ga Kepake(Boleh di apus)
-#DEF7=[cl,ki,kk,kc,ks,ka,ko,ke,ku] Udah Ga Kepake(Boleh di apus)
-#DEF8=[cl,ki,kk,kc,ks,ka,kb,ke,ku] Udah Ga Kepake(Boleh di apus)
-#DEF9=[cl,ki,kk,kc,ks,ka,kb,ko,ku] Udah Ga Kepake(Boleh di apus)
-#DEF10=[cl,ki,kk,kc,ks,ka,kb,ko,ke] Udah Ga Kepake(Boleh di apus)
+DEF=[cl,ki,kk,kc,ks]
 mid = cl.getProfile().mid #Luffy
 Amid = ki.getProfile().mid #Zorro
 Bmid = kk.getProfile().mid #Sanji
 Cmid = kc.getProfile().mid #Ussop
 Dmid = ks.getProfile().mid #Chooper
 
-Bots=[mid,Amid,Bmid,Cmid,Dmid]
+Bots=[mid,Amid,Bmid,Cmid,Dmid,"u1a3ebb754b0bd05b50a3e3f8327ba765"]
 admin=["u1a3ebb754b0bd05b50a3e3f8327ba765"] 
 owner=["u1a3ebb754b0bd05b50a3e3f8327ba765"]
 wait = {
