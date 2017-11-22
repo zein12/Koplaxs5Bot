@@ -2,7 +2,6 @@
 
 import LINETCR
 from LINETCR.lib.curve.ttypes import *
-from LINETCR import server
 from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,requests,urllib
 import re,string,os,shutil,urllib2,urllib3,subprocess
