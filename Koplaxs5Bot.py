@@ -65,7 +65,7 @@ O҉n҉e҉ ҉P҉i҉e҉c҉e҉ ҉T҉e҉a҉m҉ ҉P҉r҉o҉t҉e҉c҉t҉
 -==================-
 """
 KAC=[cl,ki,kk,kc,ks]
-DEF=[cl,ki,kk,kc,ks]
+DEF=[ki,kk,kc,ks]
 mid = cl.getProfile().mid #Luffy
 Amid = ki.getProfile().mid #Zorro
 Bmid = kk.getProfile().mid #Sanji
