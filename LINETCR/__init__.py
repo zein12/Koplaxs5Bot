@@ -1,3 +1,3 @@
 # -*- coding: utf-8 -*-
-from Api import LINE
+from LineApi import LINE
 from lib.curve.ttypes import *
