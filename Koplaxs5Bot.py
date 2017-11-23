@@ -71,9 +71,9 @@ Bmid = kk.getProfile().mid #Sanji
 Cmid = kc.getProfile().mid #Ussop
 Dmid = ks.getProfile().mid #Chooper
 
-Bots=[mid,Amid,Bmid,Cmid,Dmid,"u1a3ebb754b0bd05b50a3e3f8327ba765"]
-admin=["u1a3ebb754b0bd05b50a3e3f8327ba765"] 
-owner=["u1a3ebb754b0bd05b50a3e3f8327ba765"]
+Bots=[mid,Amid,Bmid,Cmid,Dmid,"ue4c99b882259cc74dd87f81617c6f1ce"]
+admin=["ue4c99b882259cc74dd87f81617c6f1ce"] 
+owner=["ue4c99b882259cc74dd87f81617c6f1ce"]
 wait = {
     'contact':False,
     'autoJoin':True,
@@ -1758,7 +1758,7 @@ def bot(op):
                 except:
                   pass
         #----------------Fungsi Banned Kick Target Start-----------------------#
-            elif msg.text in ["Kill "]:
+            elif msg.text in ["ttt "]:
               if msg.from_ in admin:
                 if msg.toType == 2:
                     group = random.choice(KAC).getGroup(msg.to)
@@ -1768,7 +1768,7 @@ def bot(op):
                         matched_list+=filter(lambda str: str == tag, gMembMids)
                     if matched_list == []:
                         random.choice(KAC).sendText(msg.to,"Selamat tinggal")
-                        random.choice(KAC).sendText(msg.to,"Jangan masuk lagi􀨁􀆷devil smile􏿿")
+                        random.choice(KAC).sendText(msg.to,"Jangan masuk lagi􀨁􀆷 smile􏿿")
                         return
                     for jj in matched_list:
                         try:
