@@ -71,7 +71,7 @@ Bmid = kk.getProfile().mid #Sanji
 Cmid = kc.getProfile().mid #Ussop
 Dmid = ks.getProfile().mid #Chooper
 
-Bots=[mid,Amid,Bmid,Cmid,Dmid,"u1a3ebb754b0bd05b50a3e3f8327ba765"]
+Bots=[mid,Amid,Bmid,Cmid,Dmid]
 admin=["u1a3ebb754b0bd05b50a3e3f8327ba765"] 
 owner=["u1a3ebb754b0bd05b50a3e3f8327ba765"]
 wait = {
