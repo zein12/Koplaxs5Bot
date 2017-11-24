@@ -9,23 +9,23 @@ from urllib import urlopen
 import requests,tempfile
 
 cl = LINETCR.LINE() #Luffy
-cl.login(qr=True)
+cl.login(token="EnHsrmMTxDVA283ug50b.xi+h9Mx/pmbCU5KqnJjqwW.awlwmUH5BApNw11KvdGUST4fGu6Lw8SyNJoij7dXuTk=")
 cl.loginResult()
 
 ki = LINETCR.LINE() #Zorro
-ki.login(qr=True)
+ki.login(token="EnhjT7RiZ5H1Cy3kKkh1.5FLPAk8nEyYhPnqkAGXmqq.cIzurtkhsGYrSDPKn1GS78ZOfznttMhYSyWy5/YP4Jg=")
 ki.loginResult()
 
 kk = LINETCR.LINE() #Sanji
-kk.login(qr=True)
+kk.login(token="EnOAZT83ygFS6Xxh7Uf2.RnTdITN8G//C0HtdhH+dWG.E9oVVXS+chVnoi0XfbBhuvyj7Qa2BkWRigTCE0Qq04M=")
 kk.loginResult()
 
 kc = LINETCR.LINE() #Ussop
-kc.login(qr=True)
+kc.login(token="EnXeHpxDTmAn5cjSz0Ec.2BjSSAYdvdK+LafGd2mIVa.ocH0Zdid2gptIEtQNU760ZwxnR3HMxuO7U6435LpJjI=")
 kc.loginResult()
 
 ks = LINETCR.LINE() #Chooper
-ks.login(qr=True)
+ks.login(token="En84RWfH7mmCxbw7M6C5.KkEqkXJvZc/KHrTuHzqS1q.wEo9CxQsJZBmTjW5r9PY6rFWTd+33vVHylRuHbE3g8Q=")
 ks.loginResult()
 
 cl
@@ -71,9 +71,9 @@ Bmid = kk.getProfile().mid #Sanji
 Cmid = kc.getProfile().mid #Ussop
 Dmid = ks.getProfile().mid #Chooper
 
-Bots=[mid,Amid,Bmid,Cmid,Dmid,"ue4c99b882259cc74dd87f81617c6f1ce"]
-admin=["ue4c99b882259cc74dd87f81617c6f1ce"] 
-owner=["ue4c99b882259cc74dd87f81617c6f1ce"]
+Bots=[mid,Amid,Bmid,Cmid,Dmid,"u1a3ebb754b0bd05b50a3e3f8327ba765"]
+admin=["u1a3ebb754b0bd05b50a3e3f8327ba765"] 
+owner=["u1a3ebb754b0bd05b50a3e3f8327ba765"]
 wait = {
     'contact':False,
     'autoJoin':True,
